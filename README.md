@@ -1,7 +1,5 @@
 # rb-cli
 
----
-
 A simple ROOBO CLI.
 
 ### Installation
