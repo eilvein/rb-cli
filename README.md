@@ -1,25 +1,37 @@
-### rb-cli ( roobo-cli )
+# rb-cli
 
-> A simple CLI.
+---
 
-### Install
+A simple ROOBO CLI.
 
-Prerequisites: Node.js (>=4.x, 6.x preferred), npm version 3+ and Git.
+### Installation
 
 ```
-$ npm install -g rb-cli
+yarn install -g rb-cli
 ```
 
 ### Usage
 
 ```
-$ rb create <project-name>
+rb <command> [options]
+# help
+rb --help
 ```
 
-### :blowfish: TODO
+### Generate Project
 
-[Eilvein](http://eilvein.cn)
+Generate project using template.
 
-#### License
+```
+rb create <name>
+```
 
-[MIT](http://opensource.org/licenses/MIT)
+The current template
+
+-   gulp webpack project template
+-   webpack project template
+-   vue project template
+
+### License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)

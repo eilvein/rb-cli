@@ -141,7 +141,7 @@ function initVue() {
     spinner.color = 'yellow'
     spinner.text = '准备创建项目'
     spinner.start()
-    download('eilvein/webpack2-es6', path, err => {
+    download('eilvein/spa-vue-project', path, err => {
         if (!err) {
             spinner.succeed('项目创建成功')
             writeJsonAttr(`${path}/package.json`, {
