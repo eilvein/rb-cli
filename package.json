@@ -1,20 +1,27 @@
 {
     "name": "rb-cli",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "rb cli",
     "main": "index.js",
     "scripts": {
-        "test": "rb"
+        "test": "rb",
+        "release": "standard-version",
+        "push": "git push --follow-tags origin master"
     },
     "bin": {
         "rb": "./bin/rb.js"
     },
     "keywords": [
-        "rb",
-        "cli",
+        "frontend",
+        "rb-cli",
         "roobo"
     ],
     "author": "Eilvein",
+    "email": "eilvein@qq.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eilvein/rb-cli.git"
+    },
     "license": "MIT",
     "dependencies": {
         "boxen": "^4.2.0",
@@ -27,6 +34,7 @@
         "lodash": "^4.17.15",
         "ora": "^4.0.3",
         "shelljs": "^0.8.3",
+        "standard-version": "^7.0.1",
         "update-notifier": "^4.0.0",
         "yargs": "^15.0.2"
     }
