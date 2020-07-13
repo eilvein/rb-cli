@@ -34,7 +34,7 @@
         "lodash": "^4.17.15",
         "ora": "^4.0.3",
         "shelljs": "^0.8.3",
-        "standard-version": "^7.0.1",
+        "standard-version": "^8.0.1",
         "update-notifier": "^4.0.0",
         "yargs": "^15.0.2"
     }
